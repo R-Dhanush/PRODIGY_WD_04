@@ -7,6 +7,11 @@
     font-family: "Poppins", sans-serif;
 }
 
+body{
+  font-family: "Poppins", sans-serif;
+  background-color: #f2f0f5;
+}
+
 .header{
   width: 100%;
   height: 100vh;
@@ -74,7 +79,7 @@ nav {
 }
 
 .section_home .container h1{
-  color: #d46e49;
+  color: #8f3900;
     font-size: 4.5rem;
     font-weight: 700;
 }
@@ -82,4 +87,51 @@ nav {
 .section_home .container p{
     font-size: 1.1rem;
     padding: 10px 0px;
+}
+
+.section_about-me{
+  padding: 80px 0;
+}
+
+.section_about-me .row{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.row .column_1{
+  flex-basis: 35%;
+  padding: 0 2rem;
+}
+
+.row .column_1 img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.row .column_2{
+  flex-basis: 60%;
+}
+
+.row .column_2 h2{
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #8f3900;
+}
+
+.row .column_2 p{
+  padding: 10px 0;
+}
+
+.column_2 .tabs{
+  display: flex;
+  padding: 40px o;
+}
+
+.column_2 .tabs .tab_link{
+  margin-right: 2rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
 }
