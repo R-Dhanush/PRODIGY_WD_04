@@ -123,15 +123,30 @@ nav {
   padding: 10px 0;
 }
 
-.column_2 .tabs{
+.column_2 .tabs_heading{
   display: flex;
   padding: 40px o;
 }
 
-.column_2 .tabs .tab_link{
+.column_2 .tabs_heading .tab_link{
   margin-right: 2rem;
   font-size: 1.1rem;
   font-weight: 500;
   cursor: pointer;
   position: relative;
+}
+
+.tab_link::after{
+  content: '';
+  width: 0;
+  height: 4px;
+  background-color: #000;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  transition: 0.5s;
+}
+
+.tab_link.active::after{
+  width: 50%;
 }
