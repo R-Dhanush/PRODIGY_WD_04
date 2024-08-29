@@ -22,7 +22,7 @@ body{
 }
 
 nav {
-    background-color: #8e6950;
+    background-color: #8f3900;
     color: #fff;
     padding: 15px 0;
     position: sticky;
@@ -222,7 +222,6 @@ nav {
   font-size: 0.9rem;
   color: #fff;
   transition: height 0.5s;
-}
 }
 
 .layer h3{
