@@ -24,12 +24,14 @@
 
     <header class="header">
       <nav>
-        <ul>
+        <ul id="sidemenu">
+          <i class="fas fa-times" onclick="closemenu()"></i>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About Me</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
       </nav>
 
       <!-- Home -->
@@ -39,9 +41,9 @@
           <h3>Hello, I'm</h3>
           <h1>Dhanush R</h1>
           <h3>| <span id="animated-text"></span></h3>
-          <p>
+          <!-- <p>
               A creative Full Stack Developer in the making, driven by a passion for designing innovative and interactive digital experiences.
-          </p>
+          </p> -->
         </div>
       </section>
     </header>
@@ -55,7 +57,7 @@
             <img src="img/DHANUSH R.JPG" alt="Dhanush_R">
           </div>
           <div class="column_2">
-            <h2>About Me</h2>
+            <h2 class="sub_title">About Me</h2>
             <p>I'm an aspiring full-stack developer with a strong foundation in front-end technologies like HTML, CSS, and JavaScript. I specialize in creating interactive and responsive web experiences and have a passion for building intuitive digital solutions.</p>
 
             <p>While I currently focus on front-end development, I am eager to expand into back-end technologies to become a versatile developer. I'm committed to continuous learning and enjoy exploring new tools and frameworks. I believe in collaboration and innovation to solve real-world problems and am excited to contribute to impactful projects.</p>
@@ -121,7 +123,7 @@
   <!-- Projects-->
   <section id="projects" class="section_projects">
     <div class="container">
-        <h2>Projects</h2>
+        <h2 class="sub_title">Projects</h2>
         <div class="projects-grid">
             <div class="project">
                 <img src="img/WD_01_.png" alt="Project 1">
@@ -146,7 +148,7 @@
               <div class="layer">
                 <h3>Project 3: Tic-Tac-Toe Game</h3>
                 <p>A web-based Tic-Tac-Toe game with options to play against another human or an AI, featuring dynamic gameplay and interactive elements.</p>
-              <a href="https://github.com/R-Dhanush/PRODIGY_WD_03" title="View on GitHub"><i class="fas fa-external-link-alt"></i></a>
+                <a href="https://github.com/R-Dhanush/PRODIGY_WD_03" title="View on GitHub"><i class="fas fa-external-link-alt"></i></a>
               </div>
 
           </div>
@@ -160,7 +162,7 @@
   <div class="container">
     <div class="row">
       <div class="contact_left">
-        <h2>Contact</h2>
+        <h2 class="sub_title">Contact</h2>
         <p><i class="fas fa-paper-plane"></i>dhanu72004@gmail.com</p>
         <p><i class="fa-solid fa-square-phone"></i>6374845964</p>
         <div class="social_media">
