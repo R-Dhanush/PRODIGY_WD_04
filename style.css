@@ -43,7 +43,7 @@ nav {
   nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     position: relative;
   }
   
@@ -243,7 +243,7 @@ nav {
 }
 
 .project:hover img{
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .project:hover .layer{
@@ -265,4 +265,84 @@ nav {
 .btn:hover{
   background: #8f3900;
   color: #fff;
+}
+
+.section_contact{
+  padding: 80px 0;
+  color: #444;
+}
+
+.section_contact .row{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.contact_left{
+  flex-basis: 35%;
+}
+
+.contact_right{
+  flex-basis: 60%;
+}
+
+.row .contact_left h2{
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #8f3900;
+}
+
+.contact_left p{
+  margin-top: 30px;
+}
+
+.contact_left p i{
+  color: #8f3900;
+  margin-right: 15px;
+  font-size: 1.5rem;
+}
+
+.social_media{
+  margin-top: 30px;
+}
+
+.social_media a{
+  text-decoration: none;
+  font-size: 1.8rem;
+  margin-right: 15px;
+  color: #444;
+  display: inline-block;
+  transition: transform 0.5s;
+}
+
+.social_media a:hover{
+  color: #8f3900;
+  transform: translateY(-5px);
+}
+
+.btn.btn2{
+  display: inline-block;
+}
+
+.contact_right form{
+  width: 100%;
+}
+
+form input, form textarea{
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: #555;
+  padding: 15px;
+  margin: 15px 0;
+  color: #fff;
+  font-size: 1.1rem;
+  border-radius: 6px;
+}
+
+form btn2{
+  padding: 14px 60px;
+  font-size: 1.1rem;
+  margin-top: 20px;
+  cursor: pointer;
 }
