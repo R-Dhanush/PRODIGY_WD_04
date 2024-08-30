@@ -7,6 +7,11 @@
     font-family: "Poppins", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 body{
   font-family: "Poppins", sans-serif;
   background-color: #f2f0f5;
@@ -395,7 +400,7 @@ nav .fas{
 
 nav ul{
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   background: #8e6950;
   color: #fff;
   position: fixed;
