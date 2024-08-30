@@ -292,6 +292,7 @@ nav {
 
 .contact_right{
   flex-basis: 60%;
+  justify-items: center;
 }
 
 .row .contact_left h2{
@@ -332,18 +333,29 @@ nav {
   display: inline-block;
 }
 
-.contact_right form{
+.contact_form{
   width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 1;
+  background: #8e6950;
+  border-radius: 15px;
+  padding: 40px 0;
+}
+
+.contact_form form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 form input, form textarea{
-  width: 100%;
+  width: 75%;
   border: 0;
   outline: none;
-  background: #555;
+  background: #fff;
   padding: 15px;
   margin: 15px 0;
-  color: #fff;
+  color: #000;
   font-size: 1.1rem;
   border-radius: 6px;
 }
@@ -448,6 +460,10 @@ nav ul .fas{
 
 .contact_left, .contact_right{
   flex-basis: 100%;
+}
+
+.contact_form{
+  aspect-ratio: 1 /1 ;
 }
 
 .copyright{
