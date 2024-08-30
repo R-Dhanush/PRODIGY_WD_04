@@ -360,6 +360,12 @@ form btn2{
   color: #fff;
 }
 
+#msg{
+  color: #8e6950;
+  margin-top: -40px;
+  display: block;
+}
+
 /* Responsive Styles */
 
 nav .fas{
@@ -380,7 +386,7 @@ nav .fas{
 }
 
 .section_home .container h1{
-  font-size: 2.25rem;
+  font-size: 2.5rem;
 }
 
 nav .fas{
