@@ -134,7 +134,7 @@ nav {
 
 .column_2 .tabs_heading{
   display: flex;
-  padding: 40px o;
+  padding: 40px 0;
 }
 
 .column_2 .tabs_heading .tab_link{
